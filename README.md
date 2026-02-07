@@ -4,9 +4,13 @@
 
 > Transform opaque government procurement data into searchable, filterable business intelligence -- powered by g0v community APIs and automated analysis pipelines.
 
+## 📋 Quick Summary
+
+> 🏛️ **Gov Procurement Analytics** 是一套台灣政府採購標案智慧分析系統，將不透明的政府採購資料轉化為可搜尋、可篩選的商業情報。📊 串接 g0v 開放社群 API（pcc-api.openfun.app）進行批次資料下載，支援斷點續傳、速率限制與進度追蹤。🔍 核心篩選引擎運用 80+ 關鍵字橫跨五大專業服務類別——廣告行銷、軟體開發、網頁設計、AI 部署、視覺設計——並自動排除營建、醫療、清潔等不相關領域。🌐 自動生成 31KB 的互動式網頁介面，提供分類篩選、關鍵字搜尋與書籤功能。📌 搭配 Go 語言 + SQLite 建構的書籤伺服器，支援標案收藏、管理與註記。🐍 Python 資料管線提供乾淨的程式化 API，可自訂日期範圍下載、關鍵字搜尋與 CSV 匯出。💡 將原本需要數小時人工搜尋的標案探索流程，縮短至數分鐘自動完成。適合需要追蹤政府標案商機的企業與業務開發團隊。
+
 ---
 
-## Why This Exists
+## 💡 Why This Exists
 
 Taiwan's government procurement market represents billions in annual spending, yet the official portal (web.pcc.gov.tw) makes it nearly impossible to efficiently discover relevant opportunities. Tenders are buried in paginated lists with no meaningful filtering, no category-based search, and no way to match opportunities to a company's actual capabilities.
 
@@ -14,7 +18,7 @@ This project closes that gap. It batch-downloads procurement data via the g0v co
 
 ---
 
-## Architecture
+## 🏗️ Architecture
 
 ```
 g0v Community API (pcc-api.openfun.app)
@@ -50,7 +54,7 @@ g0v Community API (pcc-api.openfun.app)
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 | Layer | Technology |
 |-------|------------|
@@ -64,7 +68,7 @@ g0v Community API (pcc-api.openfun.app)
 
 ---
 
-## Quick Start
+## 🏁 Quick Start
 
 ```bash
 # Install dependencies
@@ -103,7 +107,7 @@ downloader.export_to_csv(data, "cloud_tenders.csv")
 
 ---
 
-## Service Category Matching
+## 🔍 Service Category Matching
 
 The filter engine matches tenders against these professional service categories:
 
@@ -119,7 +123,7 @@ Automatically excludes: construction, medical, cleaning, security, catering, pri
 
 ---
 
-## Data Source & Licensing
+## 📜 Data Source & Licensing
 
 - **Official Source**: [Government E-Procurement System](https://web.pcc.gov.tw/pis/)
 - **API Provider**: [g0v Community](https://pcc-api.openfun.app/) (open source civic tech)
@@ -127,12 +131,12 @@ Automatically excludes: construction, medical, cleaning, security, catering, pri
 
 ---
 
-## Author
+## 👤 Author
 
 **Huang Akai (Kai)** -- Founder @ Universal FAW Labs | Creative Technologist | Ex-Ogilvy | 15+ years experience
 
 ---
 
-## License
+## 📄 License
 
 MIT
