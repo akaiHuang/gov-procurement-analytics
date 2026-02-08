@@ -4,6 +4,10 @@
 
 > Transform opaque government procurement data into searchable, filterable business intelligence -- powered by g0v community APIs and automated analysis pipelines.
 
+## About
+
+Gov Procurement Analytics 將台灣政府採購標案資料轉化為可搜尋、可篩選的情報系統，降低資訊不對稱。適合供應商、業務開發與研究者用於追蹤標案趨勢、競品動態與機會盤點。
+
 ## 📋 Quick Summary
 
 > 🏛️ **Gov Procurement Analytics** 是一套台灣政府採購標案智慧分析系統，將不透明的政府採購資料轉化為可搜尋、可篩選的商業情報。📊 串接 g0v 開放社群 API（pcc-api.openfun.app）進行批次資料下載，支援斷點續傳、速率限制與進度追蹤。🔍 核心篩選引擎運用 80+ 關鍵字橫跨五大專業服務類別——廣告行銷、軟體開發、網頁設計、AI 部署、視覺設計——並自動排除營建、醫療、清潔等不相關領域。🌐 自動生成 31KB 的互動式網頁介面，提供分類篩選、關鍵字搜尋與書籤功能。📌 搭配 Go 語言 + SQLite 建構的書籤伺服器，支援標案收藏、管理與註記。🐍 Python 資料管線提供乾淨的程式化 API，可自訂日期範圍下載、關鍵字搜尋與 CSV 匯出。💡 將原本需要數小時人工搜尋的標案探索流程，縮短至數分鐘自動完成。適合需要追蹤政府標案商機的企業與業務開發團隊。
